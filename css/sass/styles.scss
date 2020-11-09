@@ -1,0 +1,175 @@
+/*--- navigation bar ---*/
+
+$primary_1: rgb(64, 96, 101);
+$primary_2: rgb(1, 64, 79);
+$secondary_1: #00b3b3;
+$secondary_2: #009999;
+
+.container {
+	max-width: 1280px;
+}
+
+.navbar {
+	background: $primary_2;
+	color: white;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+}
+
+#navbarSpace01 {
+	background: $primary_2;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#navbarSpace02 {
+	background: $primary_2;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.nav-item {
+	background-color: $secondary_1;
+	border: 1px solid $primary_2;
+	font-weight: bold;
+	width: 100px;
+	text-align: center;
+}
+
+#navDropdown {
+	color: white;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    width: 100%;
+  }
+}
+
+#mainBody {
+	border: 7px solid $secondary_1;
+	background: $primary_1;
+	color: white;
+	margin-top: 7px;
+	height: 800px;
+}
+
+@media (max-width: 768px) {
+  #mainBody {
+    height: auto;
+    padding-bottom: 20px;
+  }
+}
+
+#sideBar {
+	border: 7px solid $secondary_2;
+	background: $primary_2;
+	color: white;
+	margin-top: 7px;
+}
+
+#sideBar h6 {
+	padding-top: 20px;
+}
+
+#slideShow {
+	width: 100%;
+	height: 150px;
+}
+
+#envelope {
+	width: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: gray;
+}
+
+#footer {
+	background-color: $secondary_1;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	font-size: 11px;
+	color: white;
+}
+
+#footerCopyright {
+	float: left;
+}
+
+#footerLinks {
+	float: right;
+}
+
+@media (max-width: 768px) {
+  	#footerCopyright {
+		float: left;
+	}
+
+	#footerLinks {
+		float: left;
+	}
+}
+
+#footerLink {
+	margin-right: 10px;
+}
+
+.dropdown-menu { 
+	font-size: 11px; 
+	background-color: $secondary_1;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.dropdown-item {
+	color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	padding-right: 5px; 
+	padding-left: 5px;
+}
+
+.dropdown-divider {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+body {
+	margin-top: 7px;
+}
+
+h1 {
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+p {
+	font-size: 10px;
+	padding-left: 10px;
+	
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: lightgray;
+}
